@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+::-webkit-scrollbar{
+display: none;
+}
+body{
+    background-image: url("./imagenes/Fondo\ de\ Pasto\ \(2\).jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{ 
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(34, 172, 0);
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+}
+
+h1{font-size: 34px;
+    color:black;
+}
+
+.Logodelheader img{
+    width:80px; 
+    height:80px;
+}
+.Logodelheader2 img{
+    width:80px; 
+    height:80px;
+}
+.Logodelheader3 img{
+    width:80px; 
+    height:80px;
+}
+.Logodelheader4 img{
+    width:80px; 
+    height:80px;
+}
+
+/*Inicio*/
+.Contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0px 10px 0;
+
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.caja h3{
+    color: white;
+}
+.caja img {
+    border-radius: 80%;
+    width: 150px;
+    height: 150px;
+}
+.UbicacionesInicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espacio entre los iframes */
+    height: 100vh; /* Altura opcional para centrar verticalmente */
+}
+.Presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Presentacion h1{
+    font-size: 35px;
+    color:rgb(255, 255, 255);
+    flex-direction: column;
+    align-items: center;
+    font-family: "Merriweather", serif;
+}
+.Presentacion p{
+    color:white;
+    width: 100%;
+    font-size: 100%;
+    padding: 10px;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+#nosotros {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nosotros iframe{
+    padding: 10px;
+    margin: 10px;
+}
+
+/*Novedades*/
+.Novedades h4{
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    flex-direction: column;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+.Arreglos img{
+    width: 300px;
+    height: 300px;
+    flex-direction: row;
+    align-content: center;
+}
+
+.carousel-item img{
+    width:500px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Ubicacion*/
+.Ubicaciones-Iframe-Imagen{
+        display: flex; /* Organiza los elementos en fila (horizontalmente) */
+        align-items: center; /* Centra los elementos verticalmente */
+        justify-content: center; /* Centra el contenido horizontalmente */
+        gap: 7px; /* Espacio entre el iframe y la imagen */
+        margin: 15px;
+        img{
+            width: 550px;
+            height: 450px;
+        }
+    }
+
+
+/*Reglas e Informacion*/
+.Reglas h1{
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    flex-direction: column;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+.Items{
+    color: white;
+    width: 100%;
+    font-family: "Quicksand", sans-serif;
+}
+
+.Piedepagina{
+    color: white;
+}
